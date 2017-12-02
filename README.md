@@ -1,0 +1,2 @@
+# Bright
+Collaborate on ideas.
