@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+/public/assets/*.js
+/public/assets/*.css
+/public/assets/*.map
+
+data.json
