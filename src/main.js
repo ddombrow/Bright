@@ -2,7 +2,7 @@ import Gun from "gun";
 
 import { ApolloClient } from "apollo-client";
 import { InMemoryCache } from "apollo-cache-inmemory";
-import ConsoleLink from "./lib/apollo-link-console";
+import GunnyWorkerLink from "./lib/apollo-link-worker";
 import { ApolloProvider } from "react-apollo";
 import { execute, makePromise } from "apollo-link";
 import gql from "graphql-tag";
@@ -11,9 +11,9 @@ import ReactDOM from "react-dom";
 import App from "./app";
 
 (function() {
-	const alink = new ConsoleLink();
+	const gunLink = new GunnyWorkerLink();
 	const client = new ApolloClient({
-		link: alink,
+		link: gunLink,
 		cache: new InMemoryCache()
 	});
 

@@ -27,12 +27,14 @@
     "babel-loader": "8.0.0-beta.0",
     "fastify": "^0.35.3",
     "graphql": "^0.11.7",
+    "graphql-gun": "^0.1.0",
     "graphql-tag": "^2.5.0",
     "gun": "^0.9.2",
     "react": "^16.2.0",
     "react-apollo": "^2.0.1",
     "react-dom": "^16.2.0",
     "serve-static": "^1.13.1",
+    "worker-loader": "^1.1.0",
     "zen-observable": "^0.6.0"
   },
   "devDependencies": {
@@ -42,6 +44,6 @@
   "prettier": {
     "useTabs": true,
     "tabWidth": 4,
-    "printWidth": 120 
+    "printWidth": 120
   }
 }

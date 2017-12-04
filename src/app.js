@@ -13,7 +13,7 @@ function BrighterApp({ data: { ideas, refetch } }) {
 
 export default graphql(gql`
 	query IdeaAppQuery {
-		idea {
+		idea @live {
 			id
 			text
 		}
